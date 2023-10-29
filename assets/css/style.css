@@ -1,5 +1,5 @@
-*{
-  background-color: rgb(160, 159, 159);
+body{
+  background-color: rgb(118, 117, 117);
 }
 .carousel{
   width: 100%;
@@ -16,13 +16,14 @@
   border-radius: 6px;
  
 }
-#header{
+header{
 width: 100%;
 margin: 0 auto;
 padding:1% 0;
 background-color: white;
 text-align: center;
-
+font-family: 'Sedgwick Ave Display', cursive;
+font-size: 5em;
 }
 footer{
   display: flex;
@@ -32,17 +33,21 @@ footer{
   color: #202021;
   background: #fbfcfc;
   height: 100px;
+  font-family: 'Inconsolata', monospace;
 }
 #nombre{
   font-size: 2em;
-  font-family: 'Bowlby One', sans-serif;
-}
+  font-family: 'Bowlby One', sans-serif;}
+h1:hover{
 
+  color:white;
+}
 h1{
   text-align: center;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 2.5%;
   margin-bottom: 1%;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 50px;
 }
