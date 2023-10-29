@@ -1,0 +1,17 @@
+.card{
+    margin-left: 1% !important;
+    margin-right:1% !important;
+    margin-top: 2% !important;
+    margin-bottom: 1% !important;
+    box-sizing: 10px !important;
+    flex-grow: 1 !important;
+    flex-basis: 200 !important;
+    border:none !important;
+    
+  }
+.card-body,.card-text{
+    background-color: white !important;
+}
+p:hover{
+color:red !important;
+}
